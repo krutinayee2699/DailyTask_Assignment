@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Login V3</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="Limages/icons/favicon.ico" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="Lvendor/bootstrap/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="Lfonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="Lfonts/iconic/css/material-design-iconic-font.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="Lvendor/animate/animate.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="Lvendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="Lvendor/animsition/css/animsition.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="Lvendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="Lvendor/daterangepicker/daterangepicker.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="Lcss/util.css">
+	<link rel="stylesheet" type="text/css" href="Lcss/main.css">
+	<!-- <style>
+		@font-face {
+			font-family: Poppins-Regular;
+			src: url('../fonts/poppins/Poppins-Regular.ttf');
+		}
+
+		@font-face {
+			font-family: Poppins-Medium;
+			src: url('../fonts/poppins/Poppins-Medium.ttf');
+		}
+	</style> -->
+
+
+	<!--===============================================================================================-->
+</head>
+
+<body>
+
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('Limages/bg-01.jpg');">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form" action="signup.html" name="loginform"
+					onsubmit="return validate()">
+					<!-- <span class="login100-form-logo">
+						<i class="zmdi zmdi-landscape"></i>
+					</span> -->
+
+					<span class="login100-form-title p-b-34 p-t-27">
+						Log in now!!!
+					</span>
+
+					<div class="wrap-input100 validate-input" data-validate="Please Enter Username">
+						<input class="input100" type="text" name="name" placeholder="Username">
+						<span class="focus-input100" data-placeholder="&#xf207;"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate=" Please Enter Password">
+						<input class="input100" type="password" name="password" placeholder="Password">
+						<span class="focus-input100" data-placeholder="&#xf191;"></span>
+					</div>
+
+					<div class="contact100-form-checkbox">
+						<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+						<label class="label-checkbox100" for="ckb1">
+							Remember me
+						</label>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn" id="btn">
+							Login
+						</button>
+					</div>
+
+					<div class="text-center p-t-90">
+						<a class="txt1" href="#">
+							Forgot Password?
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="dropDownSelect1"></div>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script>
+
+		function validate() {
+			var name = document.forms.loginform.name.value;
+			var password = document.forms.loginform.password.value;
+
+			if (name == "" || password == "") {
+				swal({
+					title: "OPPs!!!",
+					text: "Please FillOut properly!",
+					icon: "error",
+					button: "OK"
+				})
+				return false;
+			} else {
+				swal({
+					title: "Congrats!!! Login Successful.",
+					text: "Press OK To Go On Next Page!",
+					icon: "success",
+					button: "OK"
+				}).then(function () {
+					window.location = "signup.html";
+				});
+				// email.focus();
+				return false;
+
+
+			}
+		}
+
+	</script>
+	<!--===============================================================================================-->
+	<script src="Lvendor/jquery/jquery-3.2.1.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="Lvendor/animsition/js/animsition.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="Lvendor/bootstrap/js/popper.js"></script>
+	<script src="Lvendor/bootstrap/js/bootstrap.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="Lvendor/select2/select2.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="Lvendor/daterangepicker/moment.min.js"></script>
+	<script src="Lvendor/daterangepicker/daterangepicker.js"></script>
+	<!--===============================================================================================-->
+	<script src="Lvendor/countdowntime/countdowntime.js"></script>
+	<!--===============================================================================================-->
+
+
+</body>
+
+</html>

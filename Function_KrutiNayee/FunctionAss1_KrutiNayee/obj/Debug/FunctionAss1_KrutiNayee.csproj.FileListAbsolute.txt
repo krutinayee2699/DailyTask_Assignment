@@ -1,0 +1,7 @@
+E:\Internship_Assignment\Function\FunctionAss1_KrutiNayee\bin\Debug\FunctionAss1_KrutiNayee.exe.config
+E:\Internship_Assignment\Function\FunctionAss1_KrutiNayee\bin\Debug\FunctionAss1_KrutiNayee.exe
+E:\Internship_Assignment\Function\FunctionAss1_KrutiNayee\bin\Debug\FunctionAss1_KrutiNayee.pdb
+E:\Internship_Assignment\Function\FunctionAss1_KrutiNayee\obj\Debug\FunctionAss1_KrutiNayee.csproj.AssemblyReference.cache
+E:\Internship_Assignment\Function\FunctionAss1_KrutiNayee\obj\Debug\FunctionAss1_KrutiNayee.csproj.CoreCompileInputs.cache
+E:\Internship_Assignment\Function\FunctionAss1_KrutiNayee\obj\Debug\FunctionAss1_KrutiNayee.exe
+E:\Internship_Assignment\Function\FunctionAss1_KrutiNayee\obj\Debug\FunctionAss1_KrutiNayee.pdb
